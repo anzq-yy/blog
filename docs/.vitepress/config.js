@@ -4,7 +4,28 @@ export default {
     base: '/blog/',
 
     themeConfig: {
-      siteTitle: 'AnZQ-Blog' // 站点名称
+      siteTitle: 'AnZQ-Blog', // 站点名称 和 上面的title显示的是同一个
+      //logo: '/my-bolg.svg',
+
+      nav: [
+        { 
+          text: '后端',
+          items: [
+            {text: 'Java', link: '/backend/java/index', activeMatch: '/backend/java/'}
+          ]  
+        },
+        { 
+          text: '前端', 
+          items: [
+            {text: 'Js', link: '/frontend/js/index', activeMatch: '/frontend/js/'}
+          ]
+        },
+      ],
+
+      socialLinks: [
+        {icon: 'github', link: 'https://github.com/anzq-yy/blog'}
+      ]
+
     }
 
   }
