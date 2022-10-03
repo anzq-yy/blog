@@ -6,8 +6,8 @@ titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
     name: AnZQ-Blog
-    text: Vite & Vue Powered Static Site Generator
-    tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+    text: 在线文档
+    tagline: 
     actions:
         - theme: brand
           text: View on GitHub
