@@ -6,8 +6,8 @@ titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
     name: AnZQ-Blog
-    text: 在线文档
-    tagline: 
+    text: 
+    tagline: 在线文档
     actions:
         - theme: brand
           text: View on GitHub
