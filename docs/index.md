@@ -1,24 +1,25 @@
 ---
 layout: home
 
-title: VitePress
+title: AnZQ
 titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
-    name: VitePress
+    name: AnZQ-Blog
     text: Vite & Vue Powered Static Site Generator
     tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
     actions:
-        - theme: brand
-          text: Get Started
-          link: /guide/getting-started
         - theme: alt
           text: View on GitHub
-          link: https://github.com/vuejs/vitepress
+          link: https://github.com/anzq-yy/blog
 
 features:
-    - title: "Vite: The DX that can't be beat"
-      details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
+    - title: "后端"
+      details: java 
+      actions:
+          - theme: brand
+            text: Java
+            link: /backend/java/index
     - title: Designed to be simplicity first
       details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
     - title: Power of Vue meets Markdown
