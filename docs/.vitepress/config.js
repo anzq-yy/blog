@@ -37,7 +37,14 @@ export default {
 
       socialLinks: [
         {icon: 'github', link: 'https://github.com/anzq-yy/blog'}
-      ]
+      ],
+
+
+
+      footer: {
+          message: 'Released under the MIT License.',
+          copyright: 'Copyright © 2022-2022 Evan You'
+      }
 
     }
 
