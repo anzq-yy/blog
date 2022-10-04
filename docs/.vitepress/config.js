@@ -22,6 +22,19 @@ export default {
         },
       ],
 
+      sidebar: {
+         '/backend/java/': [
+             {
+                 text: 'java基础',
+                 collapsible: true,
+                 items: [
+                     {text: '面向对象' , link : '/backend/java/'},
+                     {text: 'Java高级' , link: '/backend/java/senior'}
+                 ]
+             }
+         ]
+      },
+
       socialLinks: [
         {icon: 'github', link: 'https://github.com/anzq-yy/blog'}
       ]
