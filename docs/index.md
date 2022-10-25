@@ -12,9 +12,6 @@ hero:
         - theme: brand
           text: View on GitHub
           link: https://github.com/anzq-yy/blog
-        - theme: brand
-          text: Todo List
-          link: /todo
 features:
     - icon: ⚡️
       title: 后端文档库
