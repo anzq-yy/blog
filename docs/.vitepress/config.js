@@ -38,6 +38,7 @@ export default {
 
         sidebar: {
             '/backend/java/': getBackendSidebar(),
+            '/frontend/js/' : getFrontendSidebar(),
             '/tools/': getToolsSidebar()
         },
 
