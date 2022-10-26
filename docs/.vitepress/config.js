@@ -1,3 +1,15 @@
+
+const {
+    getBackendNav,
+    getFrontendNav,
+    getToolsNav,
+
+    getBackendSidebar,
+    getFrontendSidebar,
+    getToolsSidebar,
+
+} = require('./catalog')
+
 export default {
     title: 'AnZQ',
     description: 'Just playing around.',
@@ -8,18 +20,16 @@ export default {
       //logo: '/my-bolg.svg',
 
       nav: [
-        { 
-          text: '后端',
-          items: [
-            {text: 'Java', link: '/backend/java/index', activeMatch: '/backend/java/'}
-          ]  
-        },
+        getBackendNav,
         { 
           text: '前端', 
           items: [
             {text: 'Js', link: '/frontend/js/index', activeMatch: '/frontend/js/'}
           ]
         },
+        {
+
+        }
       ],
 
       sidebar: {
