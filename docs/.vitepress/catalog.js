@@ -1,34 +1,28 @@
-
-export {
-    getBackendNav
+export function getBackendSidebar() {
+    return [
+        {
+            text: 'java基础',
+            collapsible: true,
+            items: [
+                {text: '面向对象', link: '/backend/java/'},
+                {text: 'Java高级', link: '/backend/java/senior'}
+            ]
+        }
+    ]
 }
 
-
-function getBackendNav() {
-   return {
-       text: '后端',
-       items: [
-           {text: 'Java', link: '/backend/java/index', activeMatch: '/backend/java/'}
-       ]
-   }
-}
-
-function getFrontendNav() {
-
-}
-
-function getToolsNav() {
+export function getFrontendSidebar() {
 
 }
 
-function getBackendSidebar() {
-
-}
-
-function getFrontendSidebar() {
-
-}
-
-function getToolsSidebar() {
-
+export function getToolsSidebar() {
+    return [
+        {
+            text: '常用软件',
+            collapsible: true,
+            items: [
+                {text: 'JetBrains', link: '/tools/JetBrains'}
+            ]
+        }
+    ]
 }
