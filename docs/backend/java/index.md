@@ -10,6 +10,12 @@ graph LR
 A[Hard] --> |Text| B(Round)
 ```
 
-[luckysheet](./new-sheet.luckysheet){link-type="luckysheet"}
+```java
+// --run-- java $tmpFile.java
 
-[Drawio](./new-diagram.drawio){link-type="drawio"}
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
