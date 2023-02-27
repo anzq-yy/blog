@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as p}from"./app.081bdc0b.js";const D=JSON.parse('{"title":"AppleScript","description":"","frontmatter":{},"headers":[],"relativePath":"tools/AppleScript.md"}'),l={name:"tools/AppleScript.md"},e=p("",2),o=[e];function t(c,r,i,F,_,y){return a(),n("div",null,o)}const u=s(l,[["render",t]]);export{D as __pageData,u as default};
